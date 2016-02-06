@@ -1,0 +1,12 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: /dev
+Disallow: /clipart
+Disallow: /files
+Disallow: /images
+Disallow: /navigation_bars
+Disallow: /sitebuilder
+Disallow: /tmp
+Disallow: /yahoo_site_admin
+Sitemap: http://www.drpharm-usa.com/sitemap.xml
