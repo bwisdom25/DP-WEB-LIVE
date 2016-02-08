@@ -10,8 +10,8 @@
 	$message = ""; 
 
 	
-    $thank_you_url = "../../products/RFQ/successful_form.html";
-    $error_url = "../../products/RFQ/error.html";
+    $thank_you_url = "http://www.drpharm-usa.com/products/RFQ/successful_form.html";
+
 
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 

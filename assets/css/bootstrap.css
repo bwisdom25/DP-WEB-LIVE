@@ -270,13 +270,16 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-
+ 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  
 }
 @font-face{
   font-family: 'Oswald';
+  /*
   src: url('../fonts/Oswald-Regular.ttf');
+  */
 }
 @font-face{
   font-family: 'Rajdhani';
@@ -4254,6 +4257,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: none;
   }
 }
+
 .navbar-nav {
   position: relative;
   margin-bottom: 10px;
@@ -4265,6 +4269,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 
 .navbar-nav > li > a {
+  font-size: 16px;
   padding: 0px 10px;
   line-height: 25px;  
   border-top: 2px solid transparent;
@@ -4279,15 +4284,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-top-right-radius: 5px;
 }
 
-@media (min-width: 768px){
+@media (max-width: 804px){
   .navbar-nav > li > a {
-    font-size: 16px;
+    font-size: 14px;
   }
-}
-
-@media (max-width: 768px){
+}  
+@media (max-width: 767px){
   .navbar-nav > li > a {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -4347,8 +4351,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
     position: relative;
     bottom: -4px;
-    left: 0;
-    right: 0;
     width: 100%;
     text-align: center;
     margin: 0 auto;

@@ -11,8 +11,8 @@ $email = "";
 
 $message = "";
 
-$thank_you_url = "http://dev.drpharm-usa.com/products/RFQ/successful_form.html";
-$error_url = "http://dev.drpharm-usa.com/products/RFQ/error.html";
+$thank_you_url = "http://www.drpharm-usa.com/products/RFQ/successful_form.html";
+$error_url = "http://www.drpharm-usa.com/products/RFQ/error.html";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$firstName = test_input($_POST["fnameInput"]);
