@@ -139,7 +139,7 @@
     //EMAIL DATA 
     $from_add = "webmaster@drpharm-usa.com"; 
 
-	$to_add = "sales@drpharm-usa.com"; //<-- put your yahoo/gmail email address here
+	$to_add = "bwisdom@rightstuffequipment.com,kweber@rightstuffequipment.com,tbellio@rightstuffequipment.com"; //<-- put your yahoo/gmail email address here
 
 	$subject = "[RFQ][Tablet Press] - A New Lead has Filled Out an RFQ";
 	

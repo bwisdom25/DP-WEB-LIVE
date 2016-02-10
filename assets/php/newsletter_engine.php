@@ -32,7 +32,7 @@ $message .= "Last Name: " . $lastName  ."\n";
 $message .= "Email: " . $email . "\n";
 
 //EMAIL DATA 
-$from_add = "webmaster@drpharm-usa.com"; $to_add = "sales@drpharm-usa.com"; //<-- put your yahoo/gmail email address here
+$from_add = "webmaster@drpharm-usa.com"; $to_add = "bwisdom@rightstuffequipment.com,kweber@rightstuffequipment.com,tbellio@rightstuffequipment.com"; //<-- put your yahoo/gmail email address here
 $subject = "[NEWSLETTER] - A New Lead has signed up for the Dr. Pharm Newsletter!";
 
 $headers = "From: $from_add \r\n";
